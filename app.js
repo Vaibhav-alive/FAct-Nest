@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const card = document.querySelector('.card');
+    const card = document.querySelector('.card .main-card .banner');
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
